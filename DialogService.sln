@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30002.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DialogService.Entry", "DialogService\DialogService.Entry.csproj", "{EB70613C-39BE-4721-ABC5-2F9D841F6B03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DialogService.Defines", "DialogService.Defines\DialogService.Defines.csproj", "{59F21FC8-2F92-4A2B-8207-6C94C6C28517}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DialogService.Services", "DialogService.Services\DialogService.Services.csproj", "{E12D811F-721E-4F5C-A35B-EC0BD09AA126}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DialogService.ViewModels", "DialogService.ViewModels\DialogService.ViewModels.csproj", "{A010833A-C7B7-46D5-9594-7A48DFD386FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DialogService.Views", "DialogService.Views\DialogService.Views.csproj", "{8E3C36EA-8CD4-477F-B726-2671198C95DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DialogService.Mappings", "DialogService.Mappings\DialogService.Mappings.csproj", "{01098405-CE1E-407D-A9F9-1B8C67C3B3A3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EB70613C-39BE-4721-ABC5-2F9D841F6B03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB70613C-39BE-4721-ABC5-2F9D841F6B03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB70613C-39BE-4721-ABC5-2F9D841F6B03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB70613C-39BE-4721-ABC5-2F9D841F6B03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59F21FC8-2F92-4A2B-8207-6C94C6C28517}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59F21FC8-2F92-4A2B-8207-6C94C6C28517}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59F21FC8-2F92-4A2B-8207-6C94C6C28517}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59F21FC8-2F92-4A2B-8207-6C94C6C28517}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E12D811F-721E-4F5C-A35B-EC0BD09AA126}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E12D811F-721E-4F5C-A35B-EC0BD09AA126}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E12D811F-721E-4F5C-A35B-EC0BD09AA126}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E12D811F-721E-4F5C-A35B-EC0BD09AA126}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A010833A-C7B7-46D5-9594-7A48DFD386FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A010833A-C7B7-46D5-9594-7A48DFD386FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A010833A-C7B7-46D5-9594-7A48DFD386FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A010833A-C7B7-46D5-9594-7A48DFD386FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E3C36EA-8CD4-477F-B726-2671198C95DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E3C36EA-8CD4-477F-B726-2671198C95DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E3C36EA-8CD4-477F-B726-2671198C95DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E3C36EA-8CD4-477F-B726-2671198C95DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01098405-CE1E-407D-A9F9-1B8C67C3B3A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01098405-CE1E-407D-A9F9-1B8C67C3B3A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01098405-CE1E-407D-A9F9-1B8C67C3B3A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01098405-CE1E-407D-A9F9-1B8C67C3B3A3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {94D9A75E-8830-40CC-8F66-9625715EAEAF}
+	EndGlobalSection
+EndGlobal

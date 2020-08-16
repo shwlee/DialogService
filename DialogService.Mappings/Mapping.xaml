@@ -1,0 +1,17 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+					xmlns:contexts="clr-namespace:DialogService.ViewModels;assembly=DialogService.ViewModels"
+					xmlns:controls="clr-namespace:DialogService.Views.Controls;assembly=DialogService.Views">
+	<DataTemplate DataType="{x:Type contexts:MainViewModel}">
+		<controls:Main/>
+	</DataTemplate>
+
+	<DataTemplate DataType="{x:Type contexts:RectViewModel}">
+		<controls:Rect/>
+	</DataTemplate>
+
+	<DataTemplate DataType="{x:Type contexts:EllipseViewModel}">
+		<controls:Ellipse/>
+	</DataTemplate>
+
+</ResourceDictionary>
