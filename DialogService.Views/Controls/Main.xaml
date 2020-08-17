@@ -15,6 +15,7 @@
 			<Button Width="150" Height="40" Content="RECT" Margin="20" Command="{Binding GoRectCommand}"/>
 			<Button Width="150" Height="40" Content="Ellipse" Margin="20" Command="{Binding GoEllipseCommand}"/>
 			<Button Width="150" Height="40" Content="Ellipse Modal" Margin="20" Command="{Binding GoEllipseModalCommand}"/>
+			<Button Width="150" Height="40" Content="X" Margin="20" Command="{Binding CloseCommand}"/>
 		</StackPanel>
 	</Grid>
 </UserControl>

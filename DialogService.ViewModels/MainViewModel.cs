@@ -20,6 +20,16 @@ namespace DialogService.ViewModels
 
 		public ICommand GoEllipseModalCommand => this._goEllipseModalCommand ?? (this._goEllipseModalCommand = new RelayCommand(this.GoEllipseModal));
 
+		private RelayCommand _closeCommand;
+
+		public ICommand CloseCommand => this._closeCommand ?? (this._closeCommand = new RelayCommand(this.Close));
+
+		private void Close()
+		{
+			var dialog = SimpleIoc.Default.GetInstance<IDialogService>();
+			dialog.Out(this);
+		}
+
 		private void GoEllipseModal()
 		{
 			var dialog = SimpleIoc.Default.GetInstance<IDialogService>();
