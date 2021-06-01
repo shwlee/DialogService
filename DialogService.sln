@@ -15,6 +15,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DialogService.Views", "Dial
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DialogService.Mappings", "DialogService.Mappings\DialogService.Mappings.csproj", "{01098405-CE1E-407D-A9F9-1B8C67C3B3A3}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.Base", "1.Base", "{50E2A9F7-246D-49B9-A37C-838A8155E73F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.MVVM", "2.MVVM", "{C82FA7A5-1B0F-4630-976B-2F81ADF23655}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Services", "3.Services", "{A39C6491-A6B4-42E8-98DF-5F597D958378}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,6 +54,13 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{59F21FC8-2F92-4A2B-8207-6C94C6C28517} = {50E2A9F7-246D-49B9-A37C-838A8155E73F}
+		{E12D811F-721E-4F5C-A35B-EC0BD09AA126} = {A39C6491-A6B4-42E8-98DF-5F597D958378}
+		{A010833A-C7B7-46D5-9594-7A48DFD386FB} = {C82FA7A5-1B0F-4630-976B-2F81ADF23655}
+		{8E3C36EA-8CD4-477F-B726-2671198C95DC} = {C82FA7A5-1B0F-4630-976B-2F81ADF23655}
+		{01098405-CE1E-407D-A9F9-1B8C67C3B3A3} = {C82FA7A5-1B0F-4630-976B-2F81ADF23655}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {94D9A75E-8830-40CC-8F66-9625715EAEAF}
